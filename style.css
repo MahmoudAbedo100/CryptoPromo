@@ -1,0 +1,304 @@
+/* Reset default margin and padding */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the background color for the entire page */
+body {
+  background-color: blueviolet;
+  color: gold;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  position: relative;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: gold;
+}
+
+/* Display the mobile menu on small screens */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+  .navbar input[type="checkbox"] {
+    display: none;
+  }
+  .navbar ul.active {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .navbar ul.active li {
+    padding: 0.5rem 1rem;
+  }
+  .navbar ul.active li a {
+    color: #fff;
+  }
+}
+
+/* Hero Section */
+.hero {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Coins Section */
+.coins {
+  padding: 5rem 0;
+}
+
+.coins h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.coins p {
+  font-size: 1.1rem;
+}
+
+.coin {
+  margin-bottom: 2rem;
+}
+
+.coin h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Newsletter Signup Section */
+.newsletter {
+  padding: 5rem 0;
+}
+
+.newsletter h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.newsletter p {
+  font-size: 1.1rem;
+}
+
+/* About Section */
+.about {
+  padding: 5rem 0;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+  .coins h2 {
+    font-size: 2rem;
+  }
+  .coins p {
+    font-size: 1rem;
+  }
+  .coin h3 {
+    font-size: 1.5rem;
+  }
+  .newsletter h2 {
+    font-size: 2rem;
+  }
+  .newsletter p {
+    font-size: 1rem;
+  }
+  .about h2 {
+    font-size: 2rem;
+  }
+  .about p {
+    font-size: 1rem;
+  }
+}
+
+section {
+  border-top: 1px solid gold;
+  padding: 2rem 0;
+}
+
+.hero .btn {
+  margin-top: 20px;
+  border: 2px solid gold;
+}
+
+section:first-of-type {
+  border-top: none;
+}
+
+.coins h2 {
+  border-top: 2px solid gold;
+  padding-top: 20px;
+}
+
+/* ... Previous CSS styles ... */
+
+.menu {
+  display: none;
+}
+
+#menu-toggle:checked ~ .menu {
+  display: block;
+}
+
+/* Menu icon styles */
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 50px;
+  margin-right: 10px;
+}
+
+/* Menu links styles */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  color: gold;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.menu li a:hover {
+  background-color: gold;
+  color: blueviolet;
+}
+
+
+/* Menu links styles */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  color: gold;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.menu li a:hover {
+  background-color: gold;
+  color: blueviolet;
+}
+
+
+
+
