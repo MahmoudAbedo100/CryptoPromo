@@ -299,6 +299,8 @@ section:first-of-type {
   color: blueviolet;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 
