@@ -22,10 +22,10 @@ Subscribe to the Newsletter for Exclusive Updates
 Mobile-Friendly and Responsive Design
 Smooth Scroll Navigation
 Demo
-You can view a live demo of CryptoPromo by visiting https://www.cryptopromo.com.
+You can view a live demo of CryptoPromo by visiting : (https://mahmoudabedo100.github.io/CryptoPromo/#newsletter)
 
 Installation:
-CryptoPromo is a web-based application, and there is no installation required. Simply open your web browser and navigate to the URL https://www.cryptopromo.com to access the platform.
+CryptoPromo is a web-based application, and there is no installation required. Simply open your web browser and navigate to the URL (https://mahmoudabedo100.github.io/CryptoPromo/#newsletter) to access the platform.
 
 Usage:
 Open your web browser and navigate to https://www.cryptopromo.com.
@@ -36,20 +36,22 @@ Technologies Used
 HTML5
 CSS3
 Bootstrap 4.5.2
-Font Awesome 5.15.3
-Contributing
+
+Contributing:
 Contributions to the CryptoPromo project are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
 
-ser Stories
+User Stories:
+
 As a user, I want to discover the latest cryptocurrencies to stay informed about the evolving market trends.
 
 As an investor, I want to explore trending coins and receive valuable insights to make informed decisions for my investment portfolio.
 
 As a crypto enthusiast, I want to access in-depth analysis and information about various digital coins, including Bitcoin, Ethereum, Solana, and Shiba Inu.
 
-As a user, I want to subscribe to the CryptoPromo newsletter to receive exclusive updates and stay informed about the latest crypto news.
+As a user, I want to subscribe to the CryptoPromo newsletter to receive exclusive updates and stay informed about the latest crypto news, and to spread my platform across social media so that others are informed about the website.
 
-Inspiration and Purpose
+Inspiration and Purpose:
+
 The inspiration behind CryptoPromo was to create a platform that provides users with a comprehensive and user-friendly resource for exploring the world of cryptocurrencies. With the rapid growth and evolving landscape of the crypto market, we saw the need for a platform that brings together essential information about various digital coins and offers valuable insights to users, whether they are beginners or experienced investors.
 
 Design Descriptions and Presentability:
