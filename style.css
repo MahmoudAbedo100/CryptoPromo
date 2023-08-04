@@ -25,11 +25,16 @@ body {
 /* Navigation Bar */
 .navbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between; /* Positions the title and menu items on opposite sides */
   align-items: center;
   background-color: #333;
   padding: 1rem;
   position: relative;
+}
+
+#brand {
+  font-size: 1.5rem; /* Adjust the font size preference */
+  order: 1;
 }
 
 .menu-icon {
@@ -41,10 +46,11 @@ body {
 
 .navbar ul {
   display: flex;
+  list-style: none;
+  order: 2; /* Moves the menu items to the right side */
 }
 
 .navbar li {
-  list-style: none;
   margin-left: 1rem;
 }
 
@@ -302,5 +308,9 @@ section:first-of-type {
 html {
   scroll-behavior: smooth;
 }
+
+
+
+
 
 
