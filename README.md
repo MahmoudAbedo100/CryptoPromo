@@ -22,13 +22,13 @@ Subscribe to the Newsletter for Exclusive Updates
 Mobile-Friendly and Responsive Design
 Smooth Scroll Navigation
 Demo
-You can view a live demo of CryptoPromo by visiting : (https://mahmoudabedo100.github.io/CryptoPromo/#newsletter)
+You can view a live demo of CryptoPromo by visiting : (https://mahmoudabedo100.github.io/CryptoPromo)
 
 Installation:
-CryptoPromo is a web-based application, and there is no installation required. Simply open your web browser and navigate to the URL (https://mahmoudabedo100.github.io/CryptoPromo/#newsletter) to access the platform.
+CryptoPromo is a web-based application, and there is no installation required. Simply open your web browser and navigate to the URL https://mahmoudabedo100.github.io/CryptoPromo to access the platform.
 
 Usage:
-Open your web browser and navigate to https://www.cryptopromo.com.
+Open your web browser and navigate to https://mahmoudabedo100.github.io/CryptoPromo
 Use the navigation bar to explore different sections of the website, such as Home, About, Coins, and Newsletter.
 Discover the latest cryptocurrencies and digital coins in the Coins section.
 Subscribe to the newsletter to stay informed about the latest crypto trends and updates.
